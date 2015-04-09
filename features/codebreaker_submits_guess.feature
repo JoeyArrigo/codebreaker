@@ -10,7 +10,6 @@ Feature: code-breaker submits guess
     Scenarios: no matches
       | code | guess | mark |
       | 1234 | 5555  |      |
-
     Scenarios: 1 number correct
       | code | guess | mark |
       | 1234 | 1555  | +    |
@@ -24,7 +23,7 @@ Feature: code-breaker submits guess
       | code | guess | mark |
       | 1234 | 5234  | +++  |
       | 1234 | 5134  | ++-  |
-      | 1234 | 5214  | +--  |
+      | 1234 | 5213  | +--  |
       | 1234 | 5123  | ---  |
     Scenarios: all numbers correct
       | code | guess | mark |
